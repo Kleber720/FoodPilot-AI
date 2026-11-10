@@ -1,56 +1,69 @@
 :root {
-  /* Paleta moderna Dark BI (Inspirada no Painel Executivo AURA TECH) */
-  --color-bg-canvas: #0b0f19;
-  --color-surface: #111827;
-  --color-surface-subtle: #162032;
-  --color-surface-elevated: #1e293b;
-  --color-text-primary: #f8fafc;
+  /* Paleta moderna Dark BI e Liquid Glass (Inspirada no Frosted Liquid Glass UI) */
+  --color-bg-canvas: #070a12;
+  --color-surface: rgba(18, 26, 43, 0.65);
+  --color-surface-subtle: rgba(24, 34, 56, 0.55);
+  --color-surface-elevated: rgba(30, 42, 69, 0.85);
+  --color-text-primary: #ffffff;
   --color-text-secondary: #94a3b8;
   --color-text-muted: #64748b;
   --color-text-inverse: #ffffff;
 
-  /* Ação primária e interações - Laranja Elétrico / Alta Energia */
+  /* Efeitos e Física de Vidro Líquido (Liquid Glass) */
+  --glass-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%), rgba(15, 23, 42, 0.65);
+  --glass-bg-card: linear-gradient(145deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.015) 100%), rgba(17, 24, 39, 0.62);
+  --glass-bg-subtle: rgba(255, 255, 255, 0.04);
+  --glass-bg-hover: rgba(255, 255, 255, 0.09);
+  --glass-blur: blur(20px) saturate(190%);
+  --glass-blur-heavy: blur(32px) saturate(210%);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-border-highlight: rgba(255, 255, 255, 0.32);
+  --glass-inset-shine: inset 0 1px 1px 0 rgba(255, 255, 255, 0.35), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.35);
+  --glass-shadow: 0 16px 36px -4px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  --glass-shadow-hover: 0 20px 48px -4px rgba(0, 0, 0, 0.7), 0 0 24px rgba(255, 107, 0, 0.28), 0 0 0 1px rgba(255, 255, 255, 0.2);
+
+  /* Ação primária e interações - Laranja Líquido / Alta Energia */
   --color-action-primary: #ff6b00;
   --color-action-primary-hover: #ff8533;
-  --color-action-primary-subtle: rgba(255, 107, 0, 0.15);
-  --color-action-secondary-bg: #1e293b;
-  --color-action-secondary-hover: #29384f;
+  --color-action-primary-subtle: rgba(255, 107, 0, 0.18);
+  --color-action-secondary-bg: rgba(255, 255, 255, 0.06);
+  --color-action-secondary-hover: rgba(255, 255, 255, 0.12);
 
   /* Bordas e foco de acessibilidade */
-  --color-border: #232d4b;
-  --color-border-subtle: #1a233a;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-border-subtle: rgba(255, 255, 255, 0.07);
   --color-focus-ring: #ff6b00;
 
   /* Estados semânticos e severidades (RN-01, RN-06) */
-  --color-success-bg: rgba(16, 185, 129, 0.12);
-  --color-success-border: rgba(16, 185, 129, 0.35);
+  --color-success-bg: rgba(16, 185, 129, 0.14);
+  --color-success-border: rgba(16, 185, 129, 0.45);
   --color-success-text: #34d399;
 
-  --color-warning-bg: rgba(245, 158, 11, 0.12);
-  --color-warning-border: rgba(245, 158, 11, 0.35);
+  --color-warning-bg: rgba(245, 158, 11, 0.14);
+  --color-warning-border: rgba(245, 158, 11, 0.45);
   --color-warning-text: #fbbf24;
 
-  --color-critical-bg: rgba(239, 68, 68, 0.14);
-  --color-critical-border: rgba(239, 68, 68, 0.4);
+  --color-critical-bg: rgba(239, 68, 68, 0.16);
+  --color-critical-border: rgba(239, 68, 68, 0.5);
   --color-critical-text: #f87171;
 
-  --color-info-bg: rgba(56, 189, 248, 0.12);
-  --color-info-border: rgba(56, 189, 248, 0.35);
+  --color-info-bg: rgba(56, 189, 248, 0.14);
+  --color-info-border: rgba(56, 189, 248, 0.45);
   --color-info-text: #38bdf8;
 
   /* Classes da Curva ABC (RN-05) */
-  --color-abc-a-bg: rgba(255, 107, 0, 0.15);
-  --color-abc-a-border: rgba(255, 107, 0, 0.4);
+  --color-abc-a-bg: rgba(255, 107, 0, 0.18);
+  --color-abc-a-border: rgba(255, 107, 0, 0.5);
   --color-abc-a-text: #ff944d;
   --color-abc-a-bar: #ff6b00;
 
-  --color-abc-b-bg: rgba(56, 189, 248, 0.15);
-  --color-abc-b-border: rgba(56, 189, 248, 0.4);
+  --color-abc-b-bg: rgba(56, 189, 248, 0.18);
+  --color-abc-b-border: rgba(56, 189, 248, 0.5);
   --color-abc-b-text: #38bdf8;
   --color-abc-b-bar: #0284c7;
 
-  --color-abc-c-bg: rgba(148, 163, 184, 0.12);
-  --color-abc-c-border: rgba(148, 163, 184, 0.3);
+  --color-abc-c-bg: rgba(148, 163, 184, 0.14);
+  --color-abc-c-border: rgba(148, 163, 184, 0.35);
   --color-abc-c-text: #cbd5e1;
   --color-abc-c-bar: #64748b;
 
@@ -85,16 +98,19 @@
   --space-10: 2.5rem;
   --space-12: 3rem;
 
-  /* Forma, raio e elevação */
-  --radius-sm: 0.375rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.75rem;
+  /* Forma, raio orgânico e elevação */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
-  --shadow-md: 0 4px 14px -2px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.07);
-  --shadow-lg: 0 12px 30px -4px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  --shadow-sm: 0 2px 6px 0 rgba(0, 0, 0, 0.4), inset 0 1px 1px 0 rgba(255, 255, 255, 0.2);
+  --shadow-md: 0 8px 24px -2px rgba(0, 0, 0, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25);
+  --shadow-lg: 0 16px 40px -4px rgba(0, 0, 0, 0.7), inset 0 1px 2px 0 rgba(255, 255, 255, 0.3);
 
-  /* Transições */
-  --transition-fast: 150ms ease-in-out;
+  /* Transições e Físicas */
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 280ms cubic-bezier(0.16, 1, 0.3, 1);
 }

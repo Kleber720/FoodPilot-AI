@@ -243,7 +243,10 @@ export const App: React.FC = () => {
 
       <header className="app-header">
         <div className="app-brand">
-          <h1>FoodPilot AI — Dashboard Operacional e Financeiro</h1>
+          <h1>
+            <span className="brand-badge" aria-hidden="true">🍔</span>
+            FoodPilot AI — Dashboard Operacional e Financeiro
+          </h1>
           <p>
             Inteligência determinística para restaurantes • Processamento local em Python + pandas + SQLite + Ollama
           </p>
