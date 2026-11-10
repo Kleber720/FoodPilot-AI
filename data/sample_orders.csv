@@ -1,0 +1,83 @@
+order_id,timestamp,item_name,category,quantity,unit_price,discount,prep_time_minutes,status,channel
+ORD-001,2026-11-01T18:10:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,26.0,completed,delivery
+ORD-001,2026-11-01T18:10:00Z,Porcao Batata Rustica Trufada,Porcoes,2,35.00,5.00,14.0,completed,delivery
+ORD-002,2026-11-01T18:35:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,34.0,completed,delivery
+ORD-002,2026-11-01T18:35:00Z,Milkshake Pistache Artesanal,Sobremesas,2,25.00,0.00,8.0,completed,delivery
+ORD-003,2026-11-01T19:05:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,25.0,completed,delivery
+ORD-003,2026-11-01T19:05:00Z,Onion Rings Crocante,Porcoes,2,25.00,0.00,12.0,completed,delivery
+ORD-004,2026-11-01T19:40:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,28.0,completed,delivery
+ORD-005,2026-11-01T20:15:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,0.00,46.0,completed,delivery
+ORD-005,2026-11-01T20:15:00Z,Burger Trilogia Defumado,Burgers,2,50.00,0.00,35.0,completed,delivery
+ORD-006,2026-11-02T18:20:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,5.00,22.0,completed,delivery
+ORD-006,2026-11-02T18:20:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,15.0,completed,delivery
+ORD-007,2026-11-02T19:00:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,0.00,24.0,completed,delivery
+ORD-008,2026-11-02T19:30:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,10.00,27.0,completed,delivery
+ORD-008,2026-11-02T19:30:00Z,Brownie Belga com Sorvete,Sobremesas,2,20.00,0.00,6.0,completed,delivery
+ORD-009,2026-11-02T20:10:00Z,Burger Trilogia Defumado,Burgers,2,50.00,10.00,38.0,completed,delivery
+ORD-009,2026-11-02T20:10:00Z,Refrigerante Lata 350ml,Bebidas,2,9.00,0.00,2.0,completed,delivery
+ORD-010,2026-11-03T18:45:00Z,Burger Trilogia Defumado,Burgers,2,50.00,5.00,24.0,completed,delivery
+ORD-011,2026-11-03T19:20:00Z,Burger Trilogia Defumado,Burgers,2,50.00,0.00,26.0,completed,delivery
+ORD-011,2026-11-03T19:20:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,13.0,completed,delivery
+ORD-012,2026-11-03T20:00:00Z,Burger Trilogia Defumado,Burgers,1,50.00,0.00,21.0,completed,delivery
+ORD-013,2026-11-04T18:50:00Z,Burger Trilogia Defumado,Burgers,1,50.00,5.00,23.0,completed,delivery
+ORD-013,2026-11-04T18:50:00Z,Smash Bacon Duplo,Burgers,2,40.00,5.00,20.0,completed,delivery
+ORD-014,2026-11-04T19:35:00Z,Smash Bacon Duplo,Burgers,2,40.00,0.00,41.0,completed,delivery
+ORD-015,2026-11-04T20:05:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,18.0,completed,delivery
+ORD-015,2026-11-04T20:05:00Z,Milkshake Pistache Artesanal,Sobremesas,2,25.00,5.00,9.0,completed,delivery
+ORD-016,2026-11-04T20:40:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,19.0,completed,delivery
+ORD-017,2026-11-05T18:15:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,15.00,25.0,completed,app
+ORD-017,2026-11-05T18:15:00Z,Porcao Batata Rustica Trufada,Porcoes,2,35.00,5.00,14.0,completed,app
+ORD-018,2026-11-05T18:40:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,29.0,completed,app
+ORD-019,2026-11-05T19:10:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,10.00,30.0,completed,app
+ORD-019,2026-11-05T19:10:00Z,Milkshake Pistache Artesanal,Sobremesas,2,25.00,0.00,7.0,completed,app
+ORD-020,2026-11-05T19:50:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,5.00,23.0,completed,app
+ORD-021,2026-11-05T20:20:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,0.00,24.0,completed,app
+ORD-021,2026-11-05T20:20:00Z,Onion Rings Crocante,Porcoes,2,25.00,5.00,11.0,completed,app
+ORD-022,2026-11-05T20:55:00Z,Burger Trilogia Defumado,Burgers,2,50.00,10.00,42.0,completed,app
+ORD-023,2026-11-06T18:05:00Z,Burger Trilogia Defumado,Burgers,2,50.00,5.00,22.0,completed,app
+ORD-023,2026-11-06T18:05:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,15.0,completed,app
+ORD-024,2026-11-06T18:30:00Z,Burger Trilogia Defumado,Burgers,2,50.00,5.00,25.0,completed,app
+ORD-025,2026-11-06T19:00:00Z,Burger Trilogia Defumado,Burgers,1,50.00,0.00,20.0,completed,app
+ORD-025,2026-11-06T19:00:00Z,Refrigerante Lata 350ml,Bebidas,2,9.00,0.00,2.0,completed,app
+ORD-026,2026-11-06T19:25:00Z,Burger Trilogia Defumado,Burgers,1,50.00,0.00,21.0,completed,app
+ORD-027,2026-11-06T19:50:00Z,Burger Trilogia Defumado,Burgers,1,50.00,5.00,23.0,completed,app
+ORD-027,2026-11-06T19:50:00Z,Brownie Belga com Sorvete,Sobremesas,1,20.00,0.00,6.0,completed,app
+ORD-028,2026-11-06T20:15:00Z,Smash Bacon Duplo,Burgers,2,40.00,5.00,19.0,completed,app
+ORD-029,2026-11-06T20:45:00Z,Smash Bacon Duplo,Burgers,2,40.00,5.00,20.0,completed,app
+ORD-029,2026-11-06T20:45:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,14.0,completed,app
+ORD-030,2026-11-06T21:10:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,17.0,completed,app
+ORD-031,2026-11-06T21:30:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,18.0,completed,app
+ORD-031,2026-11-06T21:30:00Z,Milkshake Pistache Artesanal,Sobremesas,2,25.00,5.00,8.0,completed,app
+ORD-032,2026-11-06T21:50:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,16.0,completed,app
+ORD-033,2026-11-07T18:10:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,18.0,completed,app
+ORD-034,2026-11-07T18:35:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,12.0,completed,app
+ORD-035,2026-11-07T19:00:00Z,Milkshake Pistache Artesanal,Sobremesas,2,25.00,0.00,7.0,completed,app
+ORD-036,2026-11-07T19:15:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,15.00,24.0,completed,balcao
+ORD-036,2026-11-07T19:15:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,12.0,completed,balcao
+ORD-037,2026-11-07T19:30:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,5.00,21.0,completed,balcao
+ORD-038,2026-11-07T19:45:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,5.00,22.0,completed,balcao
+ORD-038,2026-11-07T19:45:00Z,Onion Rings Crocante,Porcoes,1,25.00,0.00,10.0,completed,balcao
+ORD-039,2026-11-07T20:00:00Z,Burger Trilogia Defumado,Burgers,2,50.00,10.00,23.0,completed,balcao
+ORD-040,2026-11-07T20:15:00Z,Burger Trilogia Defumado,Burgers,1,50.00,5.00,19.0,completed,balcao
+ORD-040,2026-11-07T20:15:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,13.0,completed,balcao
+ORD-041,2026-11-07T20:30:00Z,Burger Trilogia Defumado,Burgers,1,50.00,0.00,20.0,completed,balcao
+ORD-042,2026-11-07T20:45:00Z,Burger Trilogia Defumado,Burgers,1,50.00,0.00,21.0,completed,balcao
+ORD-042,2026-11-07T20:45:00Z,Brownie Belga com Sorvete,Sobremesas,1,20.00,0.00,5.0,completed,balcao
+ORD-043,2026-11-07T21:00:00Z,Smash Bacon Duplo,Burgers,2,40.00,5.00,18.0,completed,balcao
+ORD-044,2026-11-07T21:15:00Z,Smash Bacon Duplo,Burgers,1,40.00,5.00,16.0,completed,balcao
+ORD-044,2026-11-07T21:15:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,12.0,completed,balcao
+ORD-045,2026-11-07T21:30:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,17.0,completed,balcao
+ORD-046,2026-11-07T21:45:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,15.0,completed,balcao
+ORD-046,2026-11-07T21:45:00Z,Refrigerante Lata 350ml,Bebidas,1,9.00,0.00,2.0,completed,balcao
+ORD-047,2026-11-07T22:00:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,5.00,11.0,completed,balcao
+ORD-048,2026-11-07T22:10:00Z,Milkshake Pistache Artesanal,Sobremesas,1,25.00,5.00,6.0,completed,balcao
+ORD-049,2026-11-07T22:20:00Z,Onion Rings Crocante,Porcoes,1,25.00,5.00,10.0,completed,balcao
+ORD-050,2026-11-07T22:30:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,5.00,12.0,completed,balcao
+ORD-051,2026-11-01T21:00:00Z,Combo Burger Duplo Artesanal,Combos,2,80.00,0.00,0.0,canceled,delivery
+ORD-051,2026-11-01T21:00:00Z,Porcao Batata Rustica Trufada,Porcoes,1,35.00,0.00,0.0,canceled,delivery
+ORD-052,2026-11-02T21:15:00Z,Burger Trilogia Defumado,Burgers,2,50.00,0.00,15.0,canceled,delivery
+ORD-052,2026-11-02T21:15:00Z,Refrigerante Lata 350ml,Bebidas,1,9.00,0.00,2.0,canceled,delivery
+ORD-053,2026-11-03T21:30:00Z,Combo Burger Duplo Artesanal,Combos,1,80.00,10.00,20.0,canceled,delivery
+ORD-053,2026-11-03T21:30:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,18.0,canceled,delivery
+ORD-054,2026-11-04T21:45:00Z,Burger Trilogia Defumado,Burgers,1,50.00,5.00,12.0,canceled,delivery
+ORD-055,2026-11-06T22:00:00Z,Smash Bacon Duplo,Burgers,1,40.00,0.00,10.0,canceled,app

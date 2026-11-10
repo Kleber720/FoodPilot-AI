@@ -1,0 +1,100 @@
+:root {
+  /* Paleta semântica de superfícies e textos */
+  --color-bg-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f1f5f9;
+  --color-surface-elevated: #ffffff;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #ffffff;
+
+  /* Ação primária e interações */
+  --color-action-primary: #0f766e;
+  --color-action-primary-hover: #115e59;
+  --color-action-primary-subtle: #f0fdfa;
+  --color-action-secondary-bg: #f1f5f9;
+  --color-action-secondary-hover: #e2e8f0;
+
+  /* Bordas e foco de acessibilidade */
+  --color-border: #cbd5e1;
+  --color-border-subtle: #e2e8f0;
+  --color-focus-ring: #0284c7;
+
+  /* Estados semânticos e severidades (RN-01, RN-06) */
+  --color-success-bg: #ecfdf5;
+  --color-success-border: #6ee7b7;
+  --color-success-text: #065f46;
+
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fcd34d;
+  --color-warning-text: #92400e;
+
+  --color-critical-bg: #fef2f2;
+  --color-critical-border: #fca5a5;
+  --color-critical-text: #991b1b;
+
+  --color-info-bg: #f0f9ff;
+  --color-info-border: #7dd3fc;
+  --color-info-text: #075985;
+
+  /* Classes da Curva ABC (RN-05) */
+  --color-abc-a-bg: #dcfce7;
+  --color-abc-a-border: #86efac;
+  --color-abc-a-text: #166534;
+  --color-abc-a-bar: #16a34a;
+
+  --color-abc-b-bg: #fef3c7;
+  --color-abc-b-border: #fde047;
+  --color-abc-b-text: #92400e;
+  --color-abc-b-bar: #d97706;
+
+  --color-abc-c-bg: #e2e8f0;
+  --color-abc-c-border: #cbd5e1;
+  --color-abc-c-text: #334155;
+  --color-abc-c-bar: #64748b;
+
+  /* Tipografia */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+
+  /* Escala de espaçamento */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Forma, raio e elevação */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.05);
+
+  /* Transições */
+  --transition-fast: 150ms ease-in-out;
+}
