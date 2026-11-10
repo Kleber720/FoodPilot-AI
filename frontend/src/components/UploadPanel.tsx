@@ -116,7 +116,7 @@ export const UploadPanel: React.FC<UploadPanelProps> = ({ onUploadSuccess }) => 
           </p>
 
           {validationErrors.length > 0 && (
-            <div className="table-container" style={{ backgroundColor: '#ffffff' }}>
+            <div className="table-container" style={{ backgroundColor: 'var(--color-surface)' }}>
               <table className="data-table" aria-label="Erros de validação do arquivo CSV">
                 <thead>
                   <tr>

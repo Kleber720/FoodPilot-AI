@@ -396,7 +396,7 @@ export const App: React.FC = () => {
                 <p>Gerando e formatando visão executiva do lote...</p>
               ) : reportData ? (
                 <div>
-                  <p style={{ margin: '0 0 1rem', color: '#475569' }}>
+                  <p style={{ margin: '0 0 1rem', color: 'var(--color-text-secondary)' }}>
                     Origem da Análise:{' '}
                     <strong>
                       {reportData.recommendations_source === 'llm' || reportData.recommendations_source === 'ollama'
@@ -408,7 +408,7 @@ export const App: React.FC = () => {
                     {reportData.report_markdown}
                   </pre>
                   {copyFeedback && (
-                    <p style={{ color: '#0f766e', fontWeight: 600, marginTop: '0.5rem' }}>
+                    <p style={{ color: 'var(--color-success-text)', fontWeight: 600, marginTop: '0.5rem' }}>
                       {copyFeedback}
                     </p>
                   )}

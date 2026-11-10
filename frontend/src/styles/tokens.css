@@ -1,57 +1,57 @@
 :root {
-  /* Paleta semântica de superfícies e textos */
-  --color-bg-canvas: #f8fafc;
-  --color-surface: #ffffff;
-  --color-surface-subtle: #f1f5f9;
-  --color-surface-elevated: #ffffff;
-  --color-text-primary: #0f172a;
-  --color-text-secondary: #475569;
+  /* Paleta moderna Dark BI (Inspirada no Painel Executivo AURA TECH) */
+  --color-bg-canvas: #0b0f19;
+  --color-surface: #111827;
+  --color-surface-subtle: #162032;
+  --color-surface-elevated: #1e293b;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
   --color-text-muted: #64748b;
   --color-text-inverse: #ffffff;
 
-  /* Ação primária e interações */
-  --color-action-primary: #0f766e;
-  --color-action-primary-hover: #115e59;
-  --color-action-primary-subtle: #f0fdfa;
-  --color-action-secondary-bg: #f1f5f9;
-  --color-action-secondary-hover: #e2e8f0;
+  /* Ação primária e interações - Laranja Elétrico / Alta Energia */
+  --color-action-primary: #ff6b00;
+  --color-action-primary-hover: #ff8533;
+  --color-action-primary-subtle: rgba(255, 107, 0, 0.15);
+  --color-action-secondary-bg: #1e293b;
+  --color-action-secondary-hover: #29384f;
 
   /* Bordas e foco de acessibilidade */
-  --color-border: #cbd5e1;
-  --color-border-subtle: #e2e8f0;
-  --color-focus-ring: #0284c7;
+  --color-border: #232d4b;
+  --color-border-subtle: #1a233a;
+  --color-focus-ring: #ff6b00;
 
   /* Estados semânticos e severidades (RN-01, RN-06) */
-  --color-success-bg: #ecfdf5;
-  --color-success-border: #6ee7b7;
-  --color-success-text: #065f46;
+  --color-success-bg: rgba(16, 185, 129, 0.12);
+  --color-success-border: rgba(16, 185, 129, 0.35);
+  --color-success-text: #34d399;
 
-  --color-warning-bg: #fffbeb;
-  --color-warning-border: #fcd34d;
-  --color-warning-text: #92400e;
+  --color-warning-bg: rgba(245, 158, 11, 0.12);
+  --color-warning-border: rgba(245, 158, 11, 0.35);
+  --color-warning-text: #fbbf24;
 
-  --color-critical-bg: #fef2f2;
-  --color-critical-border: #fca5a5;
-  --color-critical-text: #991b1b;
+  --color-critical-bg: rgba(239, 68, 68, 0.14);
+  --color-critical-border: rgba(239, 68, 68, 0.4);
+  --color-critical-text: #f87171;
 
-  --color-info-bg: #f0f9ff;
-  --color-info-border: #7dd3fc;
-  --color-info-text: #075985;
+  --color-info-bg: rgba(56, 189, 248, 0.12);
+  --color-info-border: rgba(56, 189, 248, 0.35);
+  --color-info-text: #38bdf8;
 
   /* Classes da Curva ABC (RN-05) */
-  --color-abc-a-bg: #dcfce7;
-  --color-abc-a-border: #86efac;
-  --color-abc-a-text: #166534;
-  --color-abc-a-bar: #16a34a;
+  --color-abc-a-bg: rgba(255, 107, 0, 0.15);
+  --color-abc-a-border: rgba(255, 107, 0, 0.4);
+  --color-abc-a-text: #ff944d;
+  --color-abc-a-bar: #ff6b00;
 
-  --color-abc-b-bg: #fef3c7;
-  --color-abc-b-border: #fde047;
-  --color-abc-b-text: #92400e;
-  --color-abc-b-bar: #d97706;
+  --color-abc-b-bg: rgba(56, 189, 248, 0.15);
+  --color-abc-b-border: rgba(56, 189, 248, 0.4);
+  --color-abc-b-text: #38bdf8;
+  --color-abc-b-bar: #0284c7;
 
-  --color-abc-c-bg: #e2e8f0;
-  --color-abc-c-border: #cbd5e1;
-  --color-abc-c-text: #334155;
+  --color-abc-c-bg: rgba(148, 163, 184, 0.12);
+  --color-abc-c-border: rgba(148, 163, 184, 0.3);
+  --color-abc-c-text: #cbd5e1;
   --color-abc-c-bar: #64748b;
 
   /* Tipografia */
@@ -91,9 +91,9 @@
   --radius-lg: 0.75rem;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 14px -2px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  --shadow-lg: 0 12px 30px -4px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.1);
 
   /* Transições */
   --transition-fast: 150ms ease-in-out;
