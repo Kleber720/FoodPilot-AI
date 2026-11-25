@@ -11,6 +11,12 @@
 [![Ollama](https://img.shields.io/badge/Ollama-qwen3:4b--instruct-black?style=flat&logo=ollama&logoColor=white)](https://ollama.com)
 [![Tests](https://img.shields.io/badge/Tests-67%20pytest%20|%2011%20vitest-brightgreen?style=flat)](tests/)
 
+
+
+<p align="center">
+  <img src="docs/foodpilot-preview.png" width="100%" alt="Preview do Dashboard FoodPilot AI" />
+</p>
+
 ---
 
 ## 📌 Visão Geral do Produto
