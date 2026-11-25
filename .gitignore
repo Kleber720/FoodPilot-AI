@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment & Local Database
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Frontend (Node / Vite / TypeScript)
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
